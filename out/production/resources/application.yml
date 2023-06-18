@@ -4,6 +4,8 @@ management:
       enabled: true
     os:
       enabled: true
+    env:
+      enabled: true
   endpoint:
     health:
       show-details: always
@@ -13,3 +15,6 @@ management:
     web:
       exposure:
         include: "*"
+logging:
+  level:
+    hello.controller: debug
